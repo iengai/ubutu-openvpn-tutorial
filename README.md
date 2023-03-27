@@ -37,7 +37,7 @@ cd ~/easy-rsa
 
 建立CA：
 ```
-./easyrsa build-ca
+./easyrsa build-ca nopass
 ```
 按提示操作，为CA创建一个密码并输入相关信息。
 
