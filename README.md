@@ -73,8 +73,6 @@ sudo nano /etc/openvpn/server.conf
 ```
 将以下内容粘贴到文件中，并保存退出：
 ```
-vbnet
-Copy code
 port 1194
 proto udp
 dev tun
@@ -213,8 +211,6 @@ nano client.ovpn
 ```
 将以下内容粘贴到文件中：
 ```
-vbnet
-Copy code
 client
 dev tun
 proto udp
