@@ -215,13 +215,7 @@ client
 dev tun
 proto udp
 remote your_server_ip 1194
-resolv-retry infinite
-nobind
-persist-key
-persist-tun
-mute-replay-warnings
 cipher AES-256-CBC
-verb 3
 ```
 用实际的服务器IP地址替换your_server_ip。
 
